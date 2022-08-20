@@ -1,0 +1,146 @@
+body{
+	margin: 0 auto;
+	padding: 0px;
+	background: transparent;
+	box-sizing: border-box;
+}
+.main{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(https://i.pinimg.com/originals/1b/f9/40/1bf940ba3f54902e7953d453fef08bc3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: cover;
+	float: left;
+
+}
+.header1{
+	width: 40%;
+	min-height: 80px;
+	background: transparent;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header1 ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.header1 ul li{
+	font-size: 20px;
+	float: left;
+	margin-right: 50px;
+	border: 3px solid transparent;
+	transition: 0.5s;
+	font-family: arial;
+	color: white;
+}
+.header1 ul li:hover{
+    border-bottom: 3px solid #19A9C5;
+}
+.header2{
+	width: 20%;
+	min-height: 80px;
+	background: transparent;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header2 span{
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+
+}
+.header3{
+	width: 40%;
+	min-height: 80px;
+	background: transparent;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header3 ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.header3 ul li{
+	font-size: 20px;
+	float: left;
+	margin-right: 50px;
+	border: 3px solid transparent;
+	transition: 0.5s;
+    color: white;
+	font-family: arial;
+}
+.header3 ul li:hover{
+    border-bottom: 3px solid #19A9C5;
+}
+.center{
+	width: 100%;
+	min-height: 350px;
+	background: transparent;
+	float: left;
+}
+.center span{
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+	font-family: arial;
+	color: white;
+
+}
+.center2{
+	width: 100%;
+	min-height: 40px;
+	background: transparent;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.center2 span{
+	font-size: 20px;
+	border: 12px solid #19A9C5;
+	font-family: arial;
+	border-radius: 40px;
+	color: white;
+}
+.footer{
+	width: 100%;
+	min-height: 100px;
+	background: transparent;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer span{
+	font-size: 50px;
+	color: white;
+	font-family: arial;
+}
+.foter1{
+	width: 100%;
+	min-height: 180px;
+	background: #F63E70;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foter1 span{
+    font-size: 25px;
+	color: white;
+	font-family: arial;
+}
